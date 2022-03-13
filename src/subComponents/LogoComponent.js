@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { DarkTheme, mediaQueries } from "../components/Themes";
+import { Link } from 'react-router-dom'
 
 const Logo = styled.h1`
   display: inline-block;
@@ -20,7 +21,7 @@ const Logo = styled.h1`
 `;
 
 const LogoComponent = (props) => {
-  return <Logo color={props.theme}>CB</Logo>;
+  return <Link to='/'><Logo color={props.theme}>MS</Logo></Link>;
 };
 
 export default LogoComponent;

@@ -18,6 +18,10 @@ display:inline-block;
 
 }
 
+a {
+  text-decoration : none;
+}
+
   body {
     margin: 0;
     padding: 0;

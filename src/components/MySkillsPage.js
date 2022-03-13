@@ -180,7 +180,9 @@ const MySkillsPage = () => {
             <Description>
               <strong>Tools</strong> <br />
               <ul>
-                <li>Figma</li>
+                <li>Photoshop</li>
+                <li>Adobe XD</li>
+                <li>After effect</li>
               </ul>
             </Description>
           </Main>
